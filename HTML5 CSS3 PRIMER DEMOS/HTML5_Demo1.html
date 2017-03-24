@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>L2_HTML5_Demo2</title>
+    <style>
+        header {
+            background: #000000;
+            color: #999999;
+            padding: 0.5em;
+        }
+
+        nav {
+            border: 4px solid #000000;
+        }
+
+        section.blogpost {
+            border: 4px dashed #000000;
+        }
+
+        section.comments {
+            border: 2px dashed #999999;
+        }
+
+        footer {
+            background-color: #999999;
+            font-size: 1em;
+            margin-top: 0.5em;
+            padding: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML 5</h1>
+        <h2>A web blog for everything about HTML 5</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="blogpost">
+            <header>
+                <h1>An Example Blog Post by <a href="#">Edsel Tham</a></h1>
+                <p><time datetime="2016-01-18T11:39z">Jan 18th, 2016 at 11:39</time></p>
+            </header>
+            <article>
+                <p>This is an example article for HTML 5</p>
+                <p>It's a blog with lots of example about HTML 5 elements.</p>
+            </article>
+            <section class="comments">
+                <article id="comments-1">
+                    <header>
+                        <h4><a href="#comment-1" rel="bookmark">Comment #1 by Random web Monkey</a></h4>
+                        <p><time datetime="2016-01-18T11:43z">Jan 18th, 2016 at 11:43</time></p>
+                    </header>
+                    <p>That's a great article!!!</p>
+                </article>
+                <article id="comments-2">
+                    <header>
+                        <h4><a href="#comment-2" rel="bookmark">Comment #2 by Random web Lion</a></h4>
+                        <p><time datetime="2016-01-18T11:44z">Jan 18th, 2016 at 11:44</time></p>
+                    </header>
+                    <p>I like the sound of this article!!!</p>
+                </article>
+            </section>
+            <footer><a href="#">Add a comment</a><a href="#">Discuss on Twitter</a></footer>
+        </section>
+        <aside>
+            <h1>Archives</h1>
+            <ul>
+                <li><a href="#">Dec 2015</a></li>
+                <li><a href="#">Nov 2015</a></li>
+                <li><a href="#">Oct 2015</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2016 Edsel Tham</p>
+    </footer>
+</body>
+</html>

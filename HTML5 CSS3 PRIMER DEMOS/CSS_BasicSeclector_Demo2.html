@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>L2_CSS_BasicSeclector_Demo2</title>
+    <style>
+          /*CSS colors are defined using a hexadecimal (HEX) notation for the combination of 
+    Red, Green, and Blue color values (RGB).*/
+        #myElement{
+            color:#ffffff;
+            background-color:#000000;
+        }
+        .myClass {
+            color: #0026ff;
+            background-color: #ff0000;
+        }
+        .anotherClass{
+            color:rgb(255,255,0);
+            background-color:rgba(102,102,102,1);
+        }
+      
+   /*hue: Basic colour;  saturation: intensity of the colour; 
+   luminosity: how light or dark; A: opacity*/
+
+
+        .forthClass{
+            color:hsl(210,75%,40%);
+            background-color:hsla(210,75%,13%,1);
+        }
+
+    </style>
+</head>
+<body>
+    <!--this is comment-->
+
+    <p id="myElement">A paragraph <em>with emphasis</em></p>
+
+
+    <p class="myClass">Another paragraph</p>
+
+    <p class="anotherClass">Third paragraph</p>
+
+    <p class="forthClass">Forth paragraph</p>
+
+</body>
+</html>
